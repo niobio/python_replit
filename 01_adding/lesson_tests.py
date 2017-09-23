@@ -1,5 +1,5 @@
 class AdditionTests(unittest.TestCase):
-    def tet_add_is_a_function(self):
+    def test_add_is_a_function(self):
         self.assertTrue(callable(add))
 
     def test_adds_two_positive_numbers(self):
